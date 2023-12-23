@@ -1,0 +1,265 @@
+*{
+    margin: 0;padding: 0;
+}
+.main{
+background-color: #149485;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+}
+.heading1{
+
+    display: flex;
+    height: 7.5rem;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.landing{
+   display: flex;
+   flex-direction: row;
+   width: fit-content;
+   height: max-content; 
+   background-color: #1ac1ad;
+   
+}
+.landing .img1{
+    height: 60vh;
+    padding: 5px;
+    
+}
+.work{
+    margin-top: 40px;padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.work1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center; 
+}
+.work2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin:30px 10px 0px 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+   
+}
+.dis{
+    margin: 30px 50px 0px 50px;
+    padding: 5px 5px 5px 5px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 25rem;
+    justify-content: space-between;
+    background-color:#2ecebb;
+    transition: background-color 1s ease, height 0.3s ease;
+   
+}
+/* .dis:hover {
+    background-color: rgb(51, 117, 153);
+   
+} */
+.w1 , .w2 , .w3{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    padding: 12px;
+    height: 100;
+    width: 100%;
+    margin: 3px;
+    font-size: 19px;
+    border-radius: 2.5px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    transition: background-color 0.8s;
+}
+.w1:hover{
+    background-color: #c3f0ea;
+    cursor: pointer;
+    color:black
+}
+.w2:hover{
+    background-color: #c3f0ea;
+    cursor: pointer;
+    color:black
+ }
+ .w3:hover{
+    background-color: #c3f0ea;
+    cursor: pointer;
+    color:black
+ }
+.w1 p, .w2 p, .w3 p{
+    height: 100%;
+    margin-top: 15px;
+    display: flex;
+    /* background-color: #ffffff; */
+    justify-content: center;
+    align-items: center;
+    /* align-items: center; */
+   
+}
+.w1 h3, .w2 h3, .w3 h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formdetails{
+    margin-top: 70px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.head1{
+    padding: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+}
+.register-form1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 1rem;
+    padding: 1rem;
+}
+.dater{
+    display: flex;
+    justify-content: center;
+   margin: 12px;
+   width: 30%;
+   height: 35px;
+   >input{
+    width: 100%;
+    padding: 5px;
+    background-color:white;
+   }
+
+}
+.input-group-text{
+    height: 40px;
+    cursor: pointer;
+}
+#submit1 {
+ display: flex;
+ color: rebeccapurpl;
+ justify-content: center;
+ align-items: center;
+}
+.data_display{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    
+    width: 100%;
+   
+  .datadspl{
+    padding: 0px;
+    margin:5px;
+    background-color: #f9f9f9;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    .img2{
+        display: flex;
+        width: 50%;
+        height: 90%;
+        align-items: center;
+        justify-content: center;
+    }
+    .details{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 100%;
+        margin: 0;padding: 0;
+        align-items: center;
+        justify-content: center;
+        
+        .prf,.int{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 27px;
+            font-weight: bolder;
+            color: black;
+            li{
+                font-size: 20px;
+                color: #04648d;
+            }
+        }
+    }
+  }
+}
+.bttn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    .book-now {
+        width: 30%;
+        font-size: 12px;
+        background-color: #00c853;
+        padding: 5px;
+        top: 3px;
+        right: 3px;
+        color: white;
+        border-radius: 3px;
+        cursor: pointer;
+      }
+}
+
+  .input_field2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    select{
+        display: flex;
+        background-color :rgb(255, 255, 255);
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        option{
+            display: flex;
+            background-color :rgb(255, 255, 255);
+            width: 100%;
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+        }
+        
+    }
+   
+  }
